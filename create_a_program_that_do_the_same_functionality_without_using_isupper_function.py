@@ -8,13 +8,10 @@ for char in word:
 
     # if-else statement 
     if 65 <= ord(char) <= 90:
-        #prints true if all characters is uppercase
-        print("True") 
+        isupper = True
 
     else:
-        #prints true if all characters is uppercase
-        print("False")
-    
-
+        isupper = False
+print(isupper)
 
 
