@@ -7,4 +7,14 @@ word = input("Enter a word: ")
 suffix = input("Enter a suffix: ")
 
 #if statement 
-#print true or false
+if word [-len(suffix):] == suffix:
+    
+    #returns true 
+    endswith = True
+
+else:
+
+    #returns False
+    endswith = False
+
+print(endswith)
