@@ -4,5 +4,7 @@
 word = input("Enter a word: ")
 
 #ask user input the suffix
+suffix = input("Enter a suffix: ")
+
 #if statement 
 #print true or false
