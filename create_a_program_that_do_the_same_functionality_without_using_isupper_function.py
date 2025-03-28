@@ -3,15 +3,17 @@
 #ask user input
 word = input("Enter a word: ")
 
+#assume characters aer uppercase
+is_upper = True
+
 #use for loop 
 for char in word:
 
     # if-else statement 
-    if 65 <= ord(char) <= 90:
-        isupper = True
+    if 97 <= ord(char) <= 122:
+        is_upper = False
 
-    else:
-        isupper = False
-print(isupper)
+#prints True if all are uppercase and False if not
+print(is_upper)
 
 
