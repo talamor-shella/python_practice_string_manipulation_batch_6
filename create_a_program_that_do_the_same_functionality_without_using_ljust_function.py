@@ -3,8 +3,13 @@
 #ask user input a word
 word = str(input("Enter a word: "))
 
-#ask user how many spaces they want to add at the end
-spaces = int(input("Enter a number of spaces you want to add at end: "))
+#ask user the total length they want
+total_length = int(input("Enter a number for the total length: "))
+
+#to find out how many spaces needed
+total_spaces = total_length - len(word)
 
 #if-else statement
+
+
 #print the word with spaces added
