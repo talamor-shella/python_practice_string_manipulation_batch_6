@@ -6,5 +6,13 @@ word = input("Enter a word: ")
 #ask user input a characters they want to remove
 characters = input("Enter a character you want to remove: ")
 
+remove = 0
 #if statement
-#prints the word without the removed characters
+while remove < len(word):
+    if characters in word:
+        remove += 1
+
+remove_prefix = word[characters:]    
+
+#prints the word without the removed 
+print(remove_prefix)
