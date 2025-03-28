@@ -16,4 +16,4 @@ for char in word:
         lowercase_letter = word #keep if the same
 
 #prints the user input in lower case
-print(word)
+print(lowercase_letter)
