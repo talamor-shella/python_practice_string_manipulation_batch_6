@@ -15,3 +15,5 @@ else:
 
 
 #prints the word without the removed 
+print(f"\nBefore removing: {word}")
+print(f"After removing prefix: {removed_prefix}")
