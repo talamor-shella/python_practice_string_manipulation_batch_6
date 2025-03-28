@@ -7,7 +7,7 @@ word = str(input("Enter a word: "))
 spaces = 0
 
 #while loop 
-while spaces < len(word) and word == " ":
+while spaces < len(word) and word[spaces] == " ":
 
     #increment spaces by 1
     spaces += 1
