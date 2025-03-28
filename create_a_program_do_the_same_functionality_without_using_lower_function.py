@@ -20,5 +20,8 @@ for char in word:
 
     new_word.append(lowercase_letter)    
 
+#variable the joins the individual elements in the list
+join_elements = "".join(new_word)
+
 #prints the user input in lower case
-print(new_word)
+print(f"Characters in lowercase: {join_elements}")
