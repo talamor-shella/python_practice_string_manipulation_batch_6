@@ -8,7 +8,10 @@ characters = input("Enter a character you want to remove: ")
 
 #if statement
 if word[:len(characters)] == characters: 
-    
+    removed_prefix = word[len(characters):]
+
+else:
+    removed_prefix = word
 
 
 #prints the word without the removed 
