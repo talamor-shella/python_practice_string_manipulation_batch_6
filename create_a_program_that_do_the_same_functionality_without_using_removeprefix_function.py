@@ -4,5 +4,7 @@
 word = input("Enter a word: ")
 
 #ask user input a characters they want to remove
+characters = input("Enter a character you want to remove: ")
+
 #if statement
 #prints the word without the removed characters
