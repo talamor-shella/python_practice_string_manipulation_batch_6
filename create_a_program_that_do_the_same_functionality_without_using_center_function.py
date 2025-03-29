@@ -9,8 +9,8 @@ total_width = int(input("Enter a number for total width: "))
 #variable that finds the total spaces need
 total_spaces = total_width - len(string)
 
-print(total_spaces) #for checking only
 #split the spaces
-
+left_spaces = total_spaces // 2
+right_spaces = total_spaces - left_spaces
 
 #print the result
