@@ -6,7 +6,16 @@ string = str(input("Enter a string: "))
 #assign the first index
 first_letter = string[0]
 
-print(first_letter) #for checking only
+#for loop 
+for char in string:
 
-#if else
-#print the string without using capitalize function 
+    #if-else statement
+    if 'a' <= first_letter <= 'z':
+        swapcase_letter = chr(ord(char) - 32) #converts lower case to uppercase
+    else:
+        swapcase_letter = char
+    
+
+#print the string without using capitalize function
+
+
