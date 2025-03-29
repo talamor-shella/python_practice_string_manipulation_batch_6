@@ -18,6 +18,7 @@ for char in string:
 
     new_string.append(swapcase_letter)
 
-#prints the string without using 
+#use join function to make it into one string
+join_string = "".join(new_string)
 
-print(new_string)
+#prints the string without using 
