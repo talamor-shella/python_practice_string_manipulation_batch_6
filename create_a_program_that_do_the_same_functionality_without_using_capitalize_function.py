@@ -11,3 +11,4 @@ else:
     capitalize_string = ""
 #print the string without using capitalize function
 
+print(f"String in capitalize: {capitalize_string}")
