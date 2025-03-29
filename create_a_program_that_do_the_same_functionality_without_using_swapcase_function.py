@@ -3,6 +3,9 @@
 #ask user input a string
 string = str(input("Enter a string: "))
 
+#make a new list for swapcaseletter
+new_string = []
+
 #looping to the string
 for char in string:
 
@@ -13,5 +16,8 @@ for char in string:
     else:
         swapcase_letter = chr(ord(char) + 32) #upper to lower
 
+    new_string.append(swapcase_letter)
 
-#prints the string without using swapcase
+#prints the string without using 
+
+print(new_string)
