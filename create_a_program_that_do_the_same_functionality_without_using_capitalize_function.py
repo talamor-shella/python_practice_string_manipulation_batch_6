@@ -4,5 +4,9 @@
 string = str(input("Enter a string: "))
 
 #assign the first index
+first_letter = string[0]
+
+print(first_letter) #for checking only
+
 #if else
-#print the string without using capitalize function
+#print the string without using capitalize function 
