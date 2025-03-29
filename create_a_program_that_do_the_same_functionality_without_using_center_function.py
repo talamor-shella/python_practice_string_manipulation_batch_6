@@ -17,3 +17,4 @@ right_spaces = total_spaces - left_spaces
 center = " " * left_spaces + string + " " * right_spaces
 
 #print the result
+print(f"'{center}'")
