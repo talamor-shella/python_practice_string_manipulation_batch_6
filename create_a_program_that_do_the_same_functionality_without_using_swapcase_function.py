@@ -13,8 +13,10 @@ for char in string:
     if 97 <= ord(char) <= 122:
         swapcase_letter = chr(ord(char) - 32) #lower to upper
 
-    else:
+    elif 65 <= ord(char) <= 90: 
         swapcase_letter = chr(ord(char) + 32) #upper to lower
+    else:
+        swapcase_letter = char #for non letters
 
     new_string.append(swapcase_letter)
 
@@ -22,3 +24,4 @@ for char in string:
 join_string = "".join(new_string)
 
 #prints the string without using 
+print(f"swapcase: {join_string}")
