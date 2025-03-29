@@ -13,4 +13,7 @@ total_spaces = total_width - len(string)
 left_spaces = total_spaces // 2
 right_spaces = total_spaces - left_spaces
 
+#variable that centers the string
+center = " " * left_spaces + string + " " * right_spaces
+
 #print the result
