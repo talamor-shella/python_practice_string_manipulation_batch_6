@@ -7,5 +7,10 @@ string = str(input("input a string: "))
 total_width = int(input("Enter a number for total width: "))
 
 #variable that finds the total spaces need
+total_spaces = total_width - len(string)
+
+print(total_spaces) #for checking only
 #split the spaces
+
+
 #print the result
