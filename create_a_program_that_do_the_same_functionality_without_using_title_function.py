@@ -4,6 +4,15 @@
 words = str(input("Enter a string: ")).split()
 
 #loop to the string
-#if else
+for word in words:
+    
+    #if-else statement
+    if 97 <= ord(word[0]) <= 122:
+
+        #converts uppercase if lowercase 
+        capitalize_word = chr(ord(word[0]) - 32) + word[1:].lower()
+    else:
+        capitalize_word = word
+
 #create a new list
 #print the result without using title() function
