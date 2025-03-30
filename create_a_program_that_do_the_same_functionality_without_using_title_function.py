@@ -3,6 +3,9 @@
 #ask user input a string and use a split method
 words = str(input("Enter a string: ")).split()
 
+#create a new list
+capitalize_words = []
+
 #loop to the string
 for word in words:
     
@@ -13,6 +16,8 @@ for word in words:
         capitalize_word = chr(ord(word[0]) - 32) + word[1:].lower()
     else:
         capitalize_word = word
+    
+    capitalize_words.append(capitalize_word)
 
-#create a new list
 #print the result without using title() function
+print(capitalize_words)
