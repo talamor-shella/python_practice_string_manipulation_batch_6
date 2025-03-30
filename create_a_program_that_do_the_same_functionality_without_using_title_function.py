@@ -19,5 +19,8 @@ for word in words:
     
     capitalize_words.append(capitalize_word)
 
+#variable that joins the elements
+joined_capitalize_words = " ".join(capitalize_words)
+
 #print the result without using title() function
-print(capitalize_words)
+print(joined_capitalize_words)
