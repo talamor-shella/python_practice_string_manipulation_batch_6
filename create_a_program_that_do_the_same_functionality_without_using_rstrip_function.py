@@ -11,6 +11,12 @@ for i in range(len(string) - 1, -1, -1):
     
     #if statement to find non space character
     if string[i] != " ":
+
         last_index = i
         break
+
+#variable that take out only the trailing spaces
+trailing_spaces = string[last_index + 1:]
+
+print(repr(trailing_spaces)) #for checking 
 
