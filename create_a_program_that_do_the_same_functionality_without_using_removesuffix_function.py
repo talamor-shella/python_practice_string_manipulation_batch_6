@@ -13,5 +13,6 @@ if string[len(string) - 1:] == character:
 
 else:
     slice_string = string
-    
+
 #prints the characters without the remove suffix
+print(slice_string)
