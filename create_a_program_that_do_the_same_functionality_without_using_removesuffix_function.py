@@ -7,4 +7,11 @@ string = input("Enter a word: ")
 character = input("Enter a suffix you want to remove: ")
 
 #if-else statement
+if string[len(string) - 1:] == character:
+    removed_suffix = len(string) - len(character)
+    slice_string = string[:removed_suffix]
+
+else:
+    slice_string = string
+    
 #prints the characters without the remove suffix
