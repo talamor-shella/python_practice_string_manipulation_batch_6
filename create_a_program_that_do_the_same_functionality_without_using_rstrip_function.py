@@ -21,4 +21,5 @@ trailing_spaces = string[last_index + 1:]
 #use replace() to remove the spaces
 rstrip_string = string.replace(trailing_spaces, "")
 
-
+print(repr(string))
+print(repr(rstrip_string))
