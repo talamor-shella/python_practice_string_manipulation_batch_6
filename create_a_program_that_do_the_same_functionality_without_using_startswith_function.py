@@ -17,3 +17,4 @@ else:
     is_prefix = False
 
 #prints true or false
+print(is_prefix)
