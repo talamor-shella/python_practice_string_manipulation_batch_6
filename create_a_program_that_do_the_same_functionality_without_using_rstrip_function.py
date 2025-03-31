@@ -18,5 +18,7 @@ for i in range(len(string) - 1, -1, -1):
 #variable that take out only the trailing spaces
 trailing_spaces = string[last_index + 1:]
 
-print(repr(trailing_spaces)) #for checking 
+#use replace() to remove the spaces
+rstrip_string = string.replace(trailing_spaces, "")
+
 
