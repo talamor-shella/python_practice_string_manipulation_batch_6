@@ -4,5 +4,13 @@
 string = input("Enter a word: ")
 
 #variable finding the last non-space character
+last_index = 0
+
 #for loop
-#if statement to find non space character
+for i in range(len(string) - 1, -1, -1):
+    
+    #if statement to find non space character
+    if string[i] != " ":
+        last_index = i
+        break
+
