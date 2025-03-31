@@ -3,6 +3,9 @@
 #ask user input 
 string = input("Enter a word: ")
 
+#make a new list for uppercased letters
+upper_cased_list = []
+
 #for loop through string
 for char in string:
 
@@ -15,5 +18,7 @@ for char in string:
     else:
         upper_case = char    
 
+    upper_cased_list.append(upper_case)
 
 #prints all characters upper case
+print(upper_cased_list) #for checking only
