@@ -20,5 +20,8 @@ for char in string:
 
     upper_cased_list.append(upper_case)
 
+#variable joining the elements
+joined_uppercased = "".join(upper_cased_list)
+
 #prints all characters upper case
-print(upper_cased_list) #for checking only
+print(joined_uppercased) 
