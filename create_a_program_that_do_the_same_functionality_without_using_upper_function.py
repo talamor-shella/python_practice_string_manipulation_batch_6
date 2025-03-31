@@ -4,6 +4,16 @@
 string = input("Enter a word: ")
 
 #for loop through string
-#if statement for ascii values
-#convert to upper if lower
+for char in string:
+
+    #if-else statement for ascii values
+    if 97 <= (ord(char)) <= 122:
+        
+        #convert to upper if lower
+        upper_case = chr(ord(char) - 32)
+
+    else:
+        upper_case = char    
+
+
 #prints all characters upper case
