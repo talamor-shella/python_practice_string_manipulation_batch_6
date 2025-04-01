@@ -17,3 +17,4 @@ else:
     fill_zero = number
 
 #prints the complete number of characters
+print(fill_zero)
