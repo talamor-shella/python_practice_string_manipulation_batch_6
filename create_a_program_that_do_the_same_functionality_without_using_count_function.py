@@ -19,3 +19,4 @@ for i in range(len(string) - len(character) + 1):
     else:
         count == 0
 
+print(count)
