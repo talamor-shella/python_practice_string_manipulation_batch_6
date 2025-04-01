@@ -7,6 +7,15 @@ string = input("Enter any word or sentence: ").lower()
 character = input("Enter a letter or word you want to count: ").lower()
 
 #initialize a counter
+count = 0
+
 #for loop
-#if-else statement
-#prints the number of occurence 
+for i in range(len(string) - len(character) + 1):
+
+    #if-else statement   
+    if string [i:i+len(character)] == character:
+        count += 1
+
+    else:
+        count == 0
+
