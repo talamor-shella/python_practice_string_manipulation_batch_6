@@ -4,8 +4,10 @@
 string = input("Enter a word: ")
 
 #ask user total length 
-total_length = int("Enter a number for total length: ")
+total_length = int(input("Enter a number for total length: "))
 
 #find how many spaces need
+spaces_need = total_length - len(string)
+
 #if-else statement
 #print the word with spaces 
