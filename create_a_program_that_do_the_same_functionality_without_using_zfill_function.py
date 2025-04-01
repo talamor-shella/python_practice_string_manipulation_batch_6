@@ -10,4 +10,10 @@ specified_length = int(input("Enter a number for specified length: "))
 total_space = specified_length - len(number)
 
 #if statement using rjust function and else statement
+if total_space > 0:
+    fill_zero = number.rjust(specified_length,"0")
+
+else:
+    fill_zero = number
+
 #prints the complete number of characters
