@@ -10,4 +10,9 @@ total_length = int(input("Enter a number for total length: "))
 spaces_need = total_length - len(string)
 
 #if-else statement
+if spaces_need > 0:
+    right_strip =  " " * spaces_need + string
+else:
+    right_strip = string
+
 #print the word with spaces 
