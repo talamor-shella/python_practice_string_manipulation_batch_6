@@ -11,5 +11,6 @@ for i in range(len(string) - len(character)):
 
     #if statement 
     if string[i:i+len(character)] == character:
-        
-    #prints the index 
+
+        #prints the index 
+        print(i)
