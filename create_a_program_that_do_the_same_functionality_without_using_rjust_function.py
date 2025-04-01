@@ -16,3 +16,4 @@ else:
     right_strip = string
 
 #print the word with spaces 
+print(repr(right_strip))
