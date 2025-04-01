@@ -7,5 +7,7 @@ string = input("Enter a string: ")
 character = input("Enter a character you want to find the index: ")
 
 #for loop through string from the last index
-#if statement
-#prints the index 
+for i in range(len(string) - len(character), -1, -1):
+
+    #if statement
+    #prints the index 
