@@ -10,4 +10,8 @@ character = input("Enter a character you want to find the index: ")
 for i in range(len(string) - len(character), -1, -1):
 
     #if statement
-    #prints the index 
+    if string[i:i+len(character)] == character:
+
+        #prints the index 
+        print(i)
+        break
